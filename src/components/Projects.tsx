@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Package, Smartphone, Globe } from 'lucide-react';
+import { ExternalLink, Package, Smartphone, Globe } from 'lucide-react';
 
 interface Project {
   title: string;

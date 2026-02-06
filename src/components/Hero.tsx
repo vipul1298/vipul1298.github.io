@@ -1,8 +1,8 @@
 import { Github, Linkedin, Mail, Phone, ChevronDown, Moon, Sun } from 'lucide-react';
-import { UseTheme } from '../hooks/UseTheme.ts';
+import { useTheme } from '../hooks/useTheme';
 
 export default function Hero() {
-  const { isDark, toggleTheme } = UseTheme();
+  const { isDark, toggleTheme } = useTheme();
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
