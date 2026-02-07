@@ -21,7 +21,7 @@ const projects: Project[] = [
       'Published on pub.dev with production-ready features',
       'Supports complex table layouts with fixed columns',
     ],
-    links: [{ label: 'pub.dev', url: 'https://pub.dev' }],
+    links: [{ label: 'pub.dev', url: 'https://pub.dev/packages/flutter_multi_scroll_table' }],
   },
   {
     title: 'CarVaidya Partner',
@@ -34,7 +34,7 @@ const projects: Project[] = [
       'Implemented inspection questions and seamless data upload',
       'Generates detailed reports for vehicle condition tracking',
     ],
-    links: [{ label: 'Play Store', url: 'https://play.google.com/store' }],
+    links: [{ label: 'Play Store', url: 'https://play.google.com/store/apps/details?id=com.cv.partner' }],
   },
   {
     title: 'Resume Analyzer',
@@ -47,7 +47,7 @@ const projects: Project[] = [
       'Implemented JWT authentication and file parsing (PDF/DOCX)',
       'Persisted data in PostgreSQL using Prisma with protected API endpoints',
     ],
-    links: [{ label: 'GitHub', url: 'https://github.com' }],
+    links: [{ label: 'GitHub', url: 'https://github.com/vipul1298/Resume-Analyzer' }],
   },
 ];
 
