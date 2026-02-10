@@ -49,6 +49,19 @@ const projects: Project[] = [
     ],
     links: [{ label: 'GitHub', url: 'https://github.com/vipul1298/Resume-Analyzer' }],
   },
+  {
+    title: 'MakeBio - Biodata Builder',
+    type: 'Full-Stack App',
+    icon: 'globe',
+    description:
+      'A web app that helps you create a professional marriage biodata in minutes. You fill a guided step-by-step form, pick from a template gallery with live preview, and download a print‑ready PDF. It also supports free + paid templates.',
+    highlights: [
+      'Built with React/Vite frontend and Supabase',
+      'Implemented JWT authentication and file download functionality based on the template selected',
+      'Persisted data in Supabase with protected API endpoints',
+    ],
+    links: [{ label: 'Website', url: 'https://www.makebio.in' }],
+  },
 ];
 
 const iconMap = {
